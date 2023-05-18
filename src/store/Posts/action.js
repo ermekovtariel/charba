@@ -12,7 +12,6 @@ import {
   GET_PRODUCTS_MAP,
   GET_PRODUCTS_MAP_SUCCESS,
   GET_PRODUCTS_MAP_DONE,
-  GET_PRODUCTS_MAP_UPDATE,
 } from '../actionType';
 
 export const fetchPosts = () => async (dispatch) => {
@@ -240,4 +239,3 @@ export const patchMinusStateProducts = (card) => async (dispatch) => {
     console.log(error);
   }
 };
-

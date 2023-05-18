@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import CalculateUsers from '../Components/CalculateUsers';
-import { Button, Divider, Input, InputNumber, Table, Tabs } from 'antd';
+import { Button, Divider, InputNumber, Table, Tabs } from 'antd';
 import { LOCAL_PORT_BACK, URL_BACK } from '../../../utils/API';
 import instance from '../../../utils/instance';
-import { isEmpty, isNil, length, prop, propOr, trim } from 'ramda';
+import { isNil, prop, propOr } from 'ramda';
 import './index.scss';
 import { pluralize } from '../../../Configs/utils';
 

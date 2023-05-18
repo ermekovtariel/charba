@@ -2,7 +2,6 @@ import {
   PieChartOutlined,
   FileSearchOutlined,
   PlusSquareOutlined,
-  UserOutlined,
   LogoutOutlined,
   SnippetsOutlined,
 } from '@ant-design/icons';
