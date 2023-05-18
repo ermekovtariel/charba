@@ -1,0 +1,18 @@
+.site-layout .site-layout-background {
+  background: #fff;
+  padding: 24px;
+}
+.mobileHomeOblPicker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ant-table-wrapper {
+  overflow-y: scroll;
+  height: 100%;
+
+  .ant-table-wrapper::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+}

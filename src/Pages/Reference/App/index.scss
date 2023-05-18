@@ -1,0 +1,9 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  .all_people {
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+}

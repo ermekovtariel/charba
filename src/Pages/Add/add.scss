@@ -1,0 +1,156 @@
+@import '../../css/variables.scss';
+
+.add_page_box {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+.ant-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1rem 0.5rem;
+  @media screen and (max-width: $md) {
+    place-content: center;
+    div {
+      width: 100% !important;
+    }
+  }
+}
+.button {
+  @media screen and (max-width: $md) {
+    width: 100%;
+  }
+}
+.add_page__filters {
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1rem;
+  box-shadow: -1px 0px 10px #dfdfdf;
+
+  @media screen and (max-width: $md) {
+    width: 100%;
+    .ant-picker {
+      width: 100%;
+    }
+    .ant-select-show-search {
+      width: 100% !important;
+    }
+  }
+
+  .ant-select {
+    width: 250px !important;
+    @media screen and (max-width: $md) {
+      width: 100% !important;
+    }
+  }
+
+  .price_inpues {
+    @media screen and (max-width: $md) {
+      .ant-input-number {
+        width: 100%;
+      }
+    }
+    width: 100%;
+    display: flex;
+    grid-gap: 1rem;
+  }
+  .add_page__filters_button {
+    display: flex;
+    width: 100%;
+    @media screen and (min-width: $md) {
+      width: fit-content;
+    }
+    grid-gap: 1rem;
+    .filters_data {
+      @media screen and (min-width: $md) {
+        display: none;
+      }
+      display: flex;
+      height: 100%;
+      flex-direction: row-reverse;
+    }
+  }
+}
+.ant-input-clear-icon {
+  display: flex;
+  .anticon-close-circle {
+    svg {
+      width: 2em !important;
+      height: 2em !important;
+    }
+  }
+}
+
+.ant-input-affix-wrapper {
+  @media screen and (max-width: $md) {
+    width: 100% !important;
+  }
+}
+
+.list_box {
+  .ant-spin-nested-loading {
+    .ant-spin-container {
+      display: flex !important;
+      grid-gap: 1rem 0.5rem;
+      flex-wrap: wrap;
+      height: 80vh;
+      overflow-y: scroll;
+      @media screen and (max-width: $md) {
+        justify-content: center;
+        .card {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.ant-upload-list {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  overflow-x: scroll;
+  .ant-upload-list-picture-card-container {
+    .ant-upload-list-item {
+      width: 146px;
+    }
+  }
+  .ant-upload {
+    .ant-upload {
+      width: 146px !important;
+    }
+  }
+}
+.ant-upload.ant-upload-select-picture-card {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.ant-upload-list-picture-card-container {
+  width: 100% !important;
+}
+.inputes_new_card {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.card {
+  height: fit-content !important;
+  .ant-card-cover {
+    padding: 8px;
+    img {
+      height: 300px;
+    }
+  }
+}
+.cardValues {
+  display: flex;
+  grid-gap: 1rem;
+  flex-wrap: wrap;
+}

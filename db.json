@@ -1,0 +1,753 @@
+{
+  "1": [
+    {
+      "product": "Картошка",
+      "value": 20,
+      "product_id": 1,
+      "id": 1
+    },
+    {
+      "product": "Баклажан",
+      "value": 10,
+      "product_id": 4,
+      "id": 2
+    },
+    {
+      "product": "Помидор",
+      "value": 10,
+      "product_id": 2,
+      "id": 3
+    },
+    {
+      "product": "Лук",
+      "value": 1,
+      "product_id": 3,
+      "id": 4
+    }
+  ],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "users": [
+    {
+      "email": "awd@gmail.com",
+      "account": "root",
+      "password": "$2a$10$1hj1uVXaZ49t6gWRt/iKme61Ye4UNEFFOGnCY3Ex1zwher4k/YTKC",
+      "phone": "996709166112",
+      "password_text": "+996709166112",
+      "firstname": "+996709166112",
+      "lastname": "+996709166112",
+      "age": 32,
+      "id": 2
+    },
+    {
+      "email": "awd@awd.awd",
+      "account": "client",
+      "password": "$2a$10$UQgdNcupmCI2t8XajyXXXeuTEc4Qbnay8MelZCNVtN40xg9HL5c.m",
+      "phone": "99600",
+      "password_text": "+99600",
+      "firstname": "awd",
+      "lastname": "awd",
+      "age": 32,
+      "id": 3
+    },
+    {
+      "email": "ermekovtariel@gmail.com",
+      "password": "$2a$10$bQFa3hIIu3Cq9jz.brYKAuA1Ahklj9/fZ.T9eCyZNMXUotpmAQwj2",
+      "phone": "99001",
+      "account": "client",
+      "password_text": "+99001",
+      "firstname": "фцв",
+      "lastname": "фцв",
+      "age": 32,
+      "id": 4
+    },
+    {
+      "email": "dd@gmail.com",
+      "password": "$2a$10$/PpjgHa7xhkQ.gtejGlPJea5z3rUcn66jqA.usKZ6wcx9b8AP69f2",
+      "phone": "996709166113",
+      "account": "client",
+      "password_text": "+996709166113",
+      "firstname": "Tariel",
+      "lastname": "Ermekov",
+      "age": 32,
+      "id": 5
+    }
+  ],
+  "states": [
+    {
+      "title": "Чуйская область",
+      "id": 1
+    },
+    {
+      "title": "Таласская область",
+      "id": 2
+    },
+    {
+      "title": "Иссык-Кульская область",
+      "id": 3
+    },
+    {
+      "title": "Нарынская область",
+      "id": 4
+    },
+    {
+      "title": "Ошская область",
+      "id": 5
+    },
+    {
+      "title": "Джалал-Абадская область",
+      "id": 6
+    },
+    {
+      "title": "Баткенская область",
+      "id": 7
+    }
+  ],
+  "productsItems": [
+    {
+      "id": 1,
+      "product": "Картошка"
+    },
+    {
+      "id": 2,
+      "product": "Помидор"
+    },
+    {
+      "id": 3,
+      "product": "Лук"
+    },
+    {
+      "id": 4,
+      "product": "Баклажан"
+    },
+    {
+      "id": 5,
+      "product": "Кабочки"
+    },
+    {
+      "id": 6,
+      "product": "Капуста"
+    },
+    {
+      "id": 7,
+      "product": "Броколи"
+    }
+  ],
+  "userProducts": [
+    {
+      "user_id": 2,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 1,
+      "product": "Картошка",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 10,
+      "id": 1
+    },
+    {
+      "user_id": 2,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 1,
+      "product": "Картошка",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 10,
+      "id": 2
+    },
+    {
+      "user_id": 2,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 4,
+      "product": "Баклажан",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 10,
+      "id": 3
+    },
+    {
+      "user_id": 3,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 2,
+      "product": "Помидор",
+      "number": "+99600",
+      "certificate": 0,
+      "value": 101,
+      "id": 4
+    },
+    {
+      "user_id": 2,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 1,
+      "product": "Картошка",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 5,
+      "id": 5
+    },
+    {
+      "user_id": 2,
+      "states_id": 1,
+      "states_title": "Чуйская область",
+      "product_id": 3,
+      "product": "Лук",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 1,
+      "id": 6
+    }
+  ],
+  "marcketplace": [
+    {
+      "title": "картошка",
+      "product_id": 1,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 550000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 16
+    },
+    {
+      "title": "картошка",
+      "product_id": 1,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 500000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 17
+    },
+    {
+      "title": "помидор",
+      "product_id": 2,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 2000000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 18
+    },
+    {
+      "title": "помидор",
+      "product_id": 2,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 1890000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 19
+    },
+    {
+      "title": "лук",
+      "product_id": 3,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 1000000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 20
+    },
+    {
+      "title": "лук",
+      "product_id": 3,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 900000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 21
+    },
+    {
+      "title": "капуста",
+      "product_id": 6,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 250000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 22
+    },
+    {
+      "title": "капуста",
+      "product_id": 6,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 200000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 23
+    },
+    {
+      "title": "баклажан",
+      "product_id": 4,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 100000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 24
+    },
+    {
+      "title": "броколи",
+      "product_id": 7,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 300000,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 25
+    },
+    {
+      "title": "кабочки",
+      "product_id": 5,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 445200,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 26
+    },
+    {
+      "title": "баклажан",
+      "product_id": 4,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 1,
+      "price": 310400,
+      "created_date": "2023-04-10",
+      "number": "+996709166112",
+      "id": 27
+    },
+    {
+      "title": "картошка",
+      "product_id": 1,
+      "state": "Чуйская область",
+      "state_id": 1,
+      "user_id": 2,
+      "value": 10,
+      "price": 120000,
+      "created_date": "2023-04-27",
+      "number": "+996709166112",
+      "id": 28
+    }
+  ],
+  "statistic": {
+    "1": {
+      "id": 1,
+      "people": 1000000,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 3
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 1
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0.5
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 1
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0.2
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0.2
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0.3
+          }
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "people": 500000,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "people": 0,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "people": 0,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "people": 0,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "people": 0,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "people": 0,
+      "data": [
+        {
+          "product": "Картошка",
+          "kilogram": {
+            "product_id": 1,
+            "value": 0
+          }
+        },
+        {
+          "product": "Помидор",
+          "kilogram": {
+            "product_id": 2,
+            "value": 0
+          }
+        },
+        {
+          "product": "Лук",
+          "kilogram": {
+            "product_id": 3,
+            "value": 0
+          }
+        },
+        {
+          "product": "Баклажан",
+          "kilogram": {
+            "product_id": 4,
+            "value": 0
+          }
+        },
+        {
+          "product": "Кабочки",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Капуста",
+          "kilogram": {
+            "product_id": 6,
+            "value": 0
+          }
+        },
+        {
+          "product": "Броколи",
+          "kilogram": {
+            "product_id": 7,
+            "value": 0
+          }
+        }
+      ]
+    }
+  }
+}

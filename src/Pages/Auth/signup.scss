@@ -1,0 +1,64 @@
+@import '../../css/variables.scss';
+
+.formProdition {
+  display: flex;
+  height: 100vh;
+  // padding-bottom: 14rem;
+  justify-content: center;
+  flex-direction: column;
+  grid-gap: 10px;
+  width: 40%;
+
+  @media screen and (max-width: $md) {
+    width: 70%;
+  }
+  margin: 0 auto;
+
+  .fio {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    @media screen and (max-width: $md) {
+      grid-template-columns: auto;
+    }
+  }
+
+  .spine {
+    align-items: center;
+    align-self: center;
+    border: 2px solid #b9ddff;
+    padding: 19px 19px 14px 19px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    .spining {
+      span {
+        animation: antRotate 3.2s infinite linear;
+      }
+    }
+    position: fixed;
+    top: 6rem;
+    .smile {
+      color: #646464;
+      position: absolute;
+      transform: rotate(90deg);
+      font-size: 24px;
+      bottom: 0;
+      left: 44%;
+      text-align: center;
+      display: flex;
+    }
+  }
+  .formValues {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2rem;
+    z-index: 100000;
+  }
+  .actions {
+    display: flex;
+    grid-gap: 10px;
+    flex-direction: column;
+  }
+}
