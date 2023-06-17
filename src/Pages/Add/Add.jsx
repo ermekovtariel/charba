@@ -92,6 +92,7 @@ function Add() {
   useEffect(() => {
     loadMoreData();
   }, [date]);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
