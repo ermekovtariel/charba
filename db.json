@@ -25,7 +25,14 @@
       "id": 4
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "product": "Броколи",
+      "value": 1,
+      "product_id": 7,
+      "id": 1
+    }
+  ],
   "3": [],
   "4": [],
   "5": [],
@@ -203,6 +210,17 @@
       "certificate": 1,
       "value": 1,
       "id": 6
+    },
+    {
+      "user_id": 2,
+      "states_id": 2,
+      "states_title": "Таласская область",
+      "product_id": 7,
+      "product": "Броколи",
+      "number": "+996709166112",
+      "certificate": 1,
+      "value": 1,
+      "id": 7
     }
   ],
   "marcketplace": [

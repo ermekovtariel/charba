@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server --watch db.json -m ./node_modules/json-server-auth --port=5001",
+    "server": "json-server --host  --watch db.json -m ./node_modules/json-server-auth --port=5001",
     "server_": "json-server 5001 --watch db.json",
     "server_auth": "npx json-server --watch public/db.json -m ./node_modules/json-server-auth --port=5000",
     "build": "react-scripts build",
